@@ -6,7 +6,7 @@ $db = "db_kampus";
 
 $koneksi = mysqli_connect($host, $user, $pass, $db);
 
-if (!koneksi) {
+if (!$koneksi) {
   die("koneksi gagal: ". mysqli_connect_error());
 }
 
